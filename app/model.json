@@ -178,6 +178,13 @@
                         "icon": "fa-weixin",
                         "color": "wisteria",
                         "page": "groupspage"
+                    },
+                    {
+                        "type": "button",
+                        "name": "Activity",
+                        "icon": "fa-volleyball-ball",
+                        "color": "black",
+                        "page": "acitivitiespage"
                     }
                     
                 ]
@@ -260,6 +267,32 @@
                     "url": "/group",
                     "form": {
                     "form": "GroupForm"
+                    }
+                }
+                ]
+            }, {
+                "id": "acitivitiespage",
+                "elementList": [
+                {
+                "type": "backbutton"
+                },
+                {
+                "type": "newButton",
+                "name": "NewActivity",
+                "icon": "fa-volleyball-ball",
+                "color": "lightblue",
+                "form": {
+                "form": "ActivityForm"
+                }
+                },
+                {
+                    "type": "list",
+                    "icon": "fa-volleyball-ball",
+                    "color": "lightblue",
+                    "search": true,
+                    "url": "/activity",
+                    "form": {
+                    "form": "ActivityForm"
                     }
                 }
                 ]
